@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  overflow-x: auto;
+
+  
+}
+
+h1 {
+    column-span: all;
+    font-size: 50px;
+}
+
+
+#photo {
+    width:128px;
+    height:128px;
+    
+}
+p {
+    font-size: large;
+    font-weight: normal;
+}
+
+hr {
+    size: 2px;
+    
+    
+}
+.column {
+    margin: 10px;
+    float: left;
+    padding: 2%;
+    text-align: center;
+    min-height: 1200px;
+    height: auto;
+}
+
+.left {
+    width: 20%;
+    background-color: rgba(23, 23, 22, 0.575);
+    color: white;
+}
+
+.right {
+    background-color: rgba(23, 23, 22, 0.032);
+    color: rgb(8, 4, 86);
+    width: 60%;
+  
+  
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+#small {
+    font-size: small;
+}
+#short {
+    width: 30%;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  .account::before {
+    font: var(--fa-font-solid);
+    content: "\f007";
+  }
+  /* logo email */
+  .mail::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    color: white;
+  }
+
+  
